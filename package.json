@@ -4,7 +4,8 @@
   "description": "Testing three.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/datboimoi/solid-potatoe/issues"
   },
-  "homepage": "https://github.com/datboimoi/solid-potatoe#readme"
+  "homepage": "https://github.com/datboimoi/solid-potatoe#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }
